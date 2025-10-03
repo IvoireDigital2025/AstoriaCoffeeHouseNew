@@ -35,7 +35,7 @@ import juiceImg1 from "@assets/IMG_4351_1751831967750.jpg";
 import juiceImg2 from "@assets/IMG_4352_1751831967751.jpg";
 
 // Pro Special Menu Images
-const proSpecialImg1 = "/attached_assets/IMG_4511 2_1759515779220.jpg";
+const proSpecialImg1 = "/attached_assets/IMG_4511 2_1759515845932.jpg";
 const proSpecialImg2 = "/attached_assets/IMG_4694 2_1759514766432.JPG";
 const proSpecialImg3 = "/attached_assets/IMG_4745 (1) 2_1759514766433.JPG";
 const proSpecialImg4 = "/attached_assets/IMG_5871_1759514766433.JPEG";
