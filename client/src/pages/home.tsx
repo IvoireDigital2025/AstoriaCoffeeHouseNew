@@ -190,11 +190,11 @@ export default function Home() {
 
             {/* Sachertorte */}
             <Card className="overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-              <div className="relative">
+              <div className="relative bg-gray-100">
                 <img 
-                  src="/attached_assets/IMG_4511 2_1759514463677.JPG"
+                  src="/attached_assets/IMG_4511 2_1759515845932.jpg"
                   alt="Sachertorte - rich chocolate cake with whipped cream"
-                  className="w-full h-64 object-cover"
+                  className="w-full h-64 object-contain"
                 />
                 <div className="absolute top-4 right-4">
                   <span className="bg-secondary text-white px-3 py-1 rounded-full text-sm font-semibold">NEW</span>
