@@ -34,6 +34,25 @@ import sandwichImg1 from "@assets/IMG_4350_1751831944576.jpg";
 import juiceImg1 from "@assets/IMG_4351_1751831967750.jpg";
 import juiceImg2 from "@assets/IMG_4352_1751831967751.jpg";
 
+// Pro Special Menu Images
+const proSpecialImg1 = "/attached_assets/IMG_4511 2_1759514766431.JPG";
+const proSpecialImg2 = "/attached_assets/IMG_4694 2_1759514766432.JPG";
+const proSpecialImg3 = "/attached_assets/IMG_4745 (1) 2_1759514766433.JPG";
+const proSpecialImg4 = "/attached_assets/IMG_5871_1759514766433.JPEG";
+const proSpecialImg5 = "/attached_assets/IMG_5886_1759514766433.JPEG";
+const proSpecialImg6 = "/attached_assets/IMG_5965_1759514766433.JPEG";
+const proSpecialImg7 = "/attached_assets/IMG_5903_1759514766434.JPEG";
+
+const proSpecialNames = [
+  "Sachertorte",
+  "Avocado Toast",
+  "Smoked Salmon",
+  "Dubai Chocolate Espresso",
+  "Salted Caramel Espresso",
+  "Earl Grey Hot Chocolate",
+  "Salty Grey Tea"
+];
+
 export default function Menu() {
   const [activeCategory, setActiveCategory] = useState<string>("pastry");
   const { toast } = useToast();
@@ -282,8 +301,27 @@ export default function Menu() {
                 Pro Special Menu
               </h3>
               <p className="text-stone-200/80 max-w-2xl mx-auto">
-                Our signature creations and exclusive specialty items - coming soon!
+                Our signature creations and exclusive specialty items
               </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              {[proSpecialImg1, proSpecialImg2, proSpecialImg3, proSpecialImg4, proSpecialImg5, proSpecialImg6, proSpecialImg7].map((img, index) => (
+                <div key={index} className="group relative overflow-hidden rounded-2xl bg-purple-900/20 backdrop-blur-sm border border-purple-700/30 hover:border-purple-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-900/30">
+                  <img 
+                    src={img} 
+                    alt={proSpecialNames[index]}
+                    className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-purple-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute bottom-0 left-0 right-0 p-4">
+                      <h4 className="text-white text-lg font-bold">{proSpecialNames[index]}</h4>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         )}
