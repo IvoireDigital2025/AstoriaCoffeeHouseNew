@@ -194,7 +194,7 @@ export default function Home() {
                 <img 
                   src="/attached_assets/IMG_4511 2_1759515845932.jpg"
                   alt="Sachertorte - rich chocolate cake with whipped cream"
-                  className="w-full h-64 object-contain"
+                  className="w-full h-80 object-contain"
                 />
                 <div className="absolute top-4 right-4">
                   <span className="bg-secondary text-white px-3 py-1 rounded-full text-sm font-semibold">NEW</span>
