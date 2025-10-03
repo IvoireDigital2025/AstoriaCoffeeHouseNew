@@ -188,12 +188,12 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            {/* Strawfee Clouds */}
+            {/* Sachertorte */}
             <Card className="overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <div className="relative">
                 <img 
-                  src="/attached_assets/IMG_3227_1751760271057.jpg"
-                  alt="Strawfee Clouds - a dreamy strawberry and coffee fusion drink with cloud-like whipped cream and strawberry drizzle"
+                  src="/attached_assets/IMG_4511 2_1759514463677.JPG"
+                  alt="Sachertorte - rich chocolate cake with whipped cream"
                   className="w-full h-64 object-cover"
                 />
                 <div className="absolute top-4 right-4">
@@ -202,13 +202,13 @@ export default function Home() {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-playfair font-bold text-coffee-dark mb-3">
-                  Strawfee Clouds
+                  Sachertorte
                 </h3>
                 <p className="text-coffee-medium mb-4">
-                  A dreamy strawberry and coffee fusion drink with a cloud-like texture, perfectly balancing fruity sweetness with bold coffee notes
+                  A rich, decadent chocolate cake with a smooth chocolate glaze, served with fresh whipped cream
                 </p>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-secondary font-medium">Signature Creation</span>
+                  <span className="text-sm text-secondary font-medium">Signature Dessert</span>
                   <Star className="w-5 h-5 text-yellow-500 fill-current" />
                 </div>
               </CardContent>
