@@ -162,12 +162,12 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-            {/* Tiramisu Pro Frappe */}
+            {/* Fall Special */}
             <Card className="overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <div className="relative">
                 <img 
-                  src="/attached_assets/IMG_3206_1751827043234.jpg"
-                  alt="Tiramisu Pro Frappe - a luxurious coffee frappe with mascarpone flavors and chocolate garnish"
+                  src="/attached_assets/RenderedImage_1759513807145.JPEG"
+                  alt="Fall Special - featuring Pumpkin Spice Latte, Earl Grey Hot Chocolate, and Coca Latte"
                   className="w-full h-64 object-cover"
                 />
                 <div className="absolute top-4 right-4">
@@ -176,13 +176,13 @@ export default function Home() {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-playfair font-bold text-coffee-dark mb-3">
-                  Tiramisu Pro Frappe
+                  Fall Special
                 </h3>
                 <p className="text-coffee-medium mb-4">
-                  A luxurious coffee frappe inspired by the classic Italian dessert, blending rich espresso with creamy mascarpone flavors
+                  Pumpkin Spice Latte, Earl Grey Hot Chocolate, Coca Latte
                 </p>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-primary font-medium">Cold Specialty Drink</span>
+                  <span className="text-sm text-primary font-medium">Seasonal Drinks</span>
                   <Star className="w-5 h-5 text-yellow-500 fill-current" />
                 </div>
               </CardContent>
